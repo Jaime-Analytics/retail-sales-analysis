@@ -1,113 +1,118 @@
-# 🛍️ Retail Sales Analysis — SQL Portfolio Project
+# 🛍️ Retail Sales Analysis — SQL & Power BI Project
 
 ![Retail Sales Dashboard](Retail Sales Performance Dashboard.png)
 
-## 📌 Project Overview
+## 📌 Project Overview  
+This project explores retail sales performance using SQL, supported by a Power BI dashboard that brings the insights to life.  
+My goal was to take a simple transactional dataset and turn it into clear, business‑ready analysis — the kind of work you’d expect in a BI or data analyst role.
 
-This project analyzes retail sales performance using SQL.  
-It demonstrates core analytical skills used in Business Intelligence and Data Analysis roles, including:
+The project covers:
 
-- Revenue analysis  
-- Trend identification  
-- Customer segmentation  
-- Product and category performance  
+- Revenue trends  
 - Regional performance  
-- Window functions (ranking + running totals)  
+- Customer behavior  
+- Product and category insights  
+- Ranking and window functions  
+- Month‑over‑month patterns  
 
-The goal is to extract meaningful insights from a simple retail dataset and present clean, reusable SQL queries that reflect real business questions.
-
----
-
-## 📂 Repository Structure
-```
-retail-sales-analysis/
-├── data/
-│   └── sales.csv
-└── sql/
-    ├── 01_total_revenue.sql
-    ├── 02_revenue_by_region.sql
-    ├── 03_revenue_by_category.sql
-    ├── 04_top_customers.sql
-    ├── 05_monthly_trend.sql
-    ├── 06_product_popularity.sql
-    ├── 07_revenue_by_product.sql
-    └── 08_region_category_revenue.sql
-```
-
-## 🧾 Dataset Description
-
-`sales.csv` contains fictional retail transaction data with the following fields:
-
-| Column       | Description |
-|--------------|-------------|
-| OrderID      | Unique order identifier |
-| OrderDate    | Date of purchase |
-| CustomerID   | Unique customer identifier |
-| Region       | Geographic region of the sale |
-| Product      | Product name |
-| Category     | Product category |
-| Quantity     | Units sold |
-| UnitPrice    | Price per unit |
-
-This dataset is intentionally simple to highlight SQL logic rather than data engineering.
+Everything is structured around real business questions and clean, reusable SQL logic.
 
 ---
 
-## 🧠 SQL Queries Included
-
-### 01 — Total Revenue
-Calculates total revenue across all transactions.
-
-### 02 — Revenue by Region
-Shows which regions generate the most revenue.
-
-### 03 — Revenue by Category
-Breaks down revenue by product category.
-
-### 04 — Top Customers
-Ranks customers by total spending using window functions.
-
-### 05 — Monthly Revenue Trend
-Analyzes revenue month‑over‑month and includes a running total.
-
-### 06 — Product Popularity
-Ranks products by total units sold.
-
-### 07 — Revenue by Product
-Identifies the highest‑earning products.
-
-### 08 — Region × Category Revenue
-Combines two dimensions to show deeper business insights.
+## 📁 Repository Structure  
 
 ---
 
-## 📊 Key Insights (Example Findings)
+## 🧾 Dataset Description  
+The dataset (`sales.csv`) contains fictional retail transactions with the following fields:
 
-These insights depend on the dataset, but typical patterns include:
+| Column     | Description                     |
+|------------|---------------------------------|
+| OrderID    | Unique order identifier         |
+| OrderDate  | Date of purchase                |
+| CustomerID | Unique customer identifier      |
+| Region     | Geographic region of the sale   |
+| Product    | Product name                    |
+| Category   | Product category                |
+| Quantity   | Units sold                      |
+| UnitPrice  | Price per unit                  |
 
-- Electronics often drive the highest revenue  
+It’s intentionally simple — the focus is on analysis, not data engineering.
+
+---
+
+## 🧠 SQL Analysis  
+Each SQL script answers a specific business question:
+
+### **01 — Total Revenue**  
+Overall revenue across all transactions.
+
+### **02 — Revenue by Region**  
+Which regions perform best.
+
+### **03 — Revenue by Category**  
+Breakdown of revenue by product category.
+
+### **04 — Customer Count**  
+Unique customers and repeat buyers.
+
+### **05 — Product Popularity**  
+Products ranked by total units sold.
+
+### **06 — Revenue by Product**  
+Top‑earning products.
+
+### **07 — Region × Category Revenue**  
+A combined view of two dimensions for deeper insight.
+
+---
+
+## 📊 Power BI Dashboard  
+To complement the SQL analysis, I built a **Retail Sales Performance Dashboard** in Power BI.
+
+It includes:
+
+- KPI cards (Revenue, Orders, Quantity, Customers)  
+- Revenue by Region  
+- Monthly Revenue Trend  
+- Top Customers  
+- Slicers for Region, Category, and Month  
+
+The dashboard is designed to be clean, simple, and executive‑friendly — something you could use in a real business setting.
+
+---
+
+## 🔍 Key Insights  
+A few patterns that typically show up in this dataset:
+
+- Electronics tend to drive the most revenue  
 - Certain regions consistently outperform others  
-- A small number of customers contribute a large share of revenue  
-- Monthly revenue trends reveal seasonality or growth patterns  
+- A small group of customers contributes a large share of revenue  
+- Monthly revenue shows clear peaks and dips  
 - Product mix analysis highlights opportunities for promotions or bundling  
 
 ---
 
-## 🎯 Skills Demonstrated
-
+## 🎯 Skills Demonstrated  
 - SQL querying and data manipulation  
 - Window functions (RANK, running totals)  
-- Grouping and aggregation  
+- Aggregation and grouping  
 - Dimensional analysis (Region × Category)  
-- Clean project structure and documentation  
-- Analytical thinking and business interpretation  
+- Power BI dashboard design  
+- KPI creation and layout design  
+- Clear documentation and project structure  
 
 ---
 
-## 🚀 Next Steps (Optional Enhancements)
+## ▶️ How to Use This Project  
+1. Download `sales.csv`  
+2. Run the SQL scripts in order (01 → 07)  
+3. Open the Power BI dashboard to explore the visuals  
 
-- Build a Power BI dashboard using this dataset  
-- Add data cleaning queries  
-- Create stored procedures or views  
-- Expand the dataset with more fields (discounts, channels, etc.)
+---
+
+## 👤 About Me  
+I’m Jaime, an Operations & Property Manager transitioning into Business Intelligence.  
+I enjoy turning raw data into clear insights and building dashboards that actually help people make decisions. 
+SQL and Power BI are my main tools, and this project is part of my growing analytics portfolio.
 
