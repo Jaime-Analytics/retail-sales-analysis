@@ -1,6 +1,6 @@
 # 🛍️ Retail Sales Analysis — SQL & Power BI Project
 
-![Retail Sales Dashboard](Retail Sales Performance Dashboard.png)
+![Retail Sales Dashboard](retail-sales-dashboard.png)
 
 ## 📌 Project Overview  
 This project explores retail sales performance using SQL, supported by a Power BI dashboard that brings the insights to life.  
