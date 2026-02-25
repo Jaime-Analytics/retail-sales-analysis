@@ -116,6 +116,20 @@ A few patterns that typically show up in this dataset:
 
 ---
 
+## 🚀 Next Steps  
+A few ideas I may explore to continue building on this project:
+
+- Add more fields to the dataset (discounts, channels, cost, margins)  
+- Build additional DAX measures for deeper analysis  
+- Create drill‑through pages in Power BI  
+- Add a forecasting component to the monthly trend  
+- Expand the SQL section with data cleaning or transformation queries  
+- Publish the dashboard to Power BI Service for interactive sharing  
+
+This project is part of my ongoing BI portfolio, and I’ll continue improving it as I grow my skills.
+
+---
+
 ## 👤 About Me  
 I’m Jaime, an Operations & Property Manager transitioning into Business Intelligence.  
 I enjoy turning raw data into clear insights and building dashboards that actually help people make decisions. 
