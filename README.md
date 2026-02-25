@@ -78,7 +78,12 @@ It includes:
 - Top Customers  
 - Slicers for Region, Category, and Month  
 
-The dashboard is designed to be clean, simple, and executive‑friendly — something you could use in a real business setting.
+The dashboard is designed to be clean, simple, and executive‑friendly, something you could use in a real business setting.
+
+### 📁 Download the Power BI Dashboard  
+You can download and explore the full interactive dashboard here:
+
+👉 [Retail Sales Performance Dashboard (PBIX)](Retail%20Sales%20Performance%20Dashboard.pbix)
 
 ---
 
