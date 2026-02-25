@@ -1,5 +1,7 @@
 # 🛍️ Retail Sales Analysis — SQL Portfolio Project
 
+![Retail Sales Dashboard](Retail Sales Performance Dashboard.png)
+
 ## 📌 Project Overview
 
 This project analyzes retail sales performance using SQL.  
